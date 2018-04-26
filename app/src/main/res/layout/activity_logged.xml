@@ -1,9 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.com.fiap.trabalho.rm78710.nac2.LoggedActivity">
+    android:orientation="vertical"
+    android:background="@color/bgColor"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/defaultColor"
+        android:textSize="@dimen/fontDefault"
+        android:layout_margin="@dimen/margin30dp"
+        android:text="@string/cardapio"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calabresa"
+        android:layout_marginBottom="@dimen/img20dp"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/imgSize100dp"
+            android:layout_height="@dimen/imgHeight100dp"
+            android:src="@drawable/calabresa"
+            android:layout_marginLeft="@dimen/imgLeft30dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/defaultColor"
+            android:textSize="@dimen/fontDefault"
+            android:layout_marginTop="@dimen/marginTop30"
+            android:paddingLeft="@dimen/paddinLeft20dp"
+            android:text="@string/calabresa"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="margerita"
+        android:layout_marginBottom="@dimen/img20dp"
+
+        >
+
+        <ImageView
+            android:layout_width="@dimen/imgSize100dp"
+            android:layout_height="@dimen/imgHeight100dp"
+            android:src="@drawable/margerita"
+            android:layout_marginLeft="@dimen/imgLeft30dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/defaultColor"
+            android:textSize="@dimen/fontDefault"
+            android:layout_marginTop="@dimen/marginTop30"
+            android:paddingLeft="@dimen/paddinLeft20dp"
+            android:text="@string/margerita"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="frangoCatupiry"
+        android:layout_marginBottom="@dimen/img20dp"
+
+        >
+
+        <ImageView
+            android:layout_width="@dimen/imgSize100dp"
+            android:layout_height="@dimen/imgHeight100dp"
+            android:src="@drawable/frango"
+            android:layout_marginLeft="@dimen/imgLeft30dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/defaultColor"
+            android:textSize="@dimen/fontDefault"
+            android:layout_marginTop="@dimen/marginTop30"
+            android:paddingLeft="@dimen/paddinLeft20dp"
+            android:text="@string/frangoCatupiry"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mussarela"
+        android:layout_marginBottom="@dimen/img20dp"
+
+        >
+
+        <ImageView
+            android:layout_width="@dimen/imgSize100dp"
+            android:layout_height="@dimen/imgHeight100dp"
+            android:src="@drawable/mussarela"
+            android:layout_marginLeft="@dimen/imgLeft30dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/defaultColor"
+            android:textSize="@dimen/fontDefault"
+            android:layout_marginTop="@dimen/marginTop30"
+            android:paddingLeft="@dimen/paddinLeft20dp"
+            android:text="@string/mussarela"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

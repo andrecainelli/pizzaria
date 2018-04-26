@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgColor"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/defaultColor"
+        android:textSize="@dimen/fontDefault"
+        android:layout_margin="@dimen/margin30dp"
+        android:text="@string/msgSplash"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:padding="@dimen/paddin10dp"
+        android:layout_margin="@dimen/margin30dp"
+        android:hint="@string/tempoSplash"
+        android:id="@+id/tempo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/defaultColor"
+        android:textSize="@dimen/fontDefault"
+        android:layout_marginTop="@dimen/marginTop30"
+        android:layout_marginBottom="@dimen/marginBottom30"
+        android:text="@string/segundos"/>
+
+</LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/paddingGeral"
+        android:layout_margin="@dimen/margin30dp"
+        android:background="@color/primaryColor"
+        android:textColor="@color/defaultColor"
+        android:text="@string/salvar"
+        android:onClick="salvar"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
+

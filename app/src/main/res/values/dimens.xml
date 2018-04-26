@@ -7,4 +7,15 @@
     <dimen name="marginLabel">30dp</dimen>
     <dimen name="respiroLabel">20dp</dimen>
     <dimen name="respiroLabel2">20dp</dimen>
+    <dimen name="margin30dp">30dp</dimen>
+    <dimen name="paddin10dp">10dp</dimen>
+    <dimen name="marginTop30">30dp</dimen>
+    <dimen name="marginBottom30">30dp</dimen>
+    <dimen name="paddinLeft20dp">20dp</dimen>
+    <dimen name="img20dp">20dp</dimen>
+    <dimen name="imgSize100dp">100dp</dimen>
+    <dimen name="imgHeight100dp">100dp</dimen>
+    <dimen name="imgLeft30dp">30dp</dimen>
+    <dimen name="imgDetail">200dp</dimen>
+    <dimen name="textDescricao">14dp</dimen>
 </resources>

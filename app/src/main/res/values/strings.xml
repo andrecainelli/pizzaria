@@ -4,5 +4,24 @@
     <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="dadosInvalidos">Dados inválidos</string>
-    <string name="redirecionando">Redirecionando...</string>
+    <string name="redirecionando">Redirecionando</string>
+    <string name="configura_es">Configurações</string>
+    <string name="msgSplash">Deseja alterar tempo da splash screen?</string>
+    <string name="tempoSplash">03</string>
+    <string name="segundos">Segundos</string>
+    <string name="salvar">Salvar</string>
+    <string name="cardapio">CARDAPIO</string>
+    <string name="calabresa">Calabresa - R$ 20,50</string>
+    <string name="margerita">Margerita - R$ 27,50</string>
+    <string name="frangoCatupiry">Frango c/ Catupiry - R$ 20,50</string>
+    <string name="mussarela">Mussarela - R$ 22,50</string>
+    <string name="ingredientes">Ingredientes</string>
+    <string name="cebola">• Cebola</string>
+    <string name="tomate">• Tomate</string>
+    <string name="queijo_mussarela">• Queijo Mussarela</string>
+    <string name="manjeric_o">• Manjericão</string>
+    <string name="queijo_parmess_o">• Queijo Parmessão</string>
+    <string name="queijo_catupiry">• Queijo Catupiry</string>
+    <string name="frango_a_passarinho">• Frango a passarinho</string>
+    <string name="azeitonas">• Azeitonas</string>
 </resources>

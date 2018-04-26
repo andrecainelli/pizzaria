@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgColor"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/imgDetail"
+        android:src="@drawable/frango"
+        android:layout_marginTop="@dimen/marginTop30"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/defaultColor"
+        android:textSize="@dimen/fontDefault"
+        android:layout_margin="@dimen/margin30dp"
+        android:text="@string/frangoCatupiry"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/fontDefault"
+        android:text="@string/ingredientes"
+        android:paddingLeft="@dimen/paddinLeft20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/defaultColor"
+        android:textSize="@dimen/fontDefault"
+        android:text="@string/queijo_catupiry"
+        android:paddingLeft="@dimen/paddinLeft20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/defaultColor"
+        android:textSize="@dimen/fontDefault"
+        android:text="@string/frango_a_passarinho"
+        android:paddingLeft="@dimen/paddinLeft20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/defaultColor"
+        android:textSize="@dimen/fontDefault"
+        android:text="@string/tomate"
+        android:paddingLeft="@dimen/paddinLeft20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/defaultColor"
+        android:textSize="@dimen/fontDefault"
+        android:text="@string/azeitonas"
+        android:paddingLeft="@dimen/paddinLeft20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/defaultColor"
+        android:layout_marginTop="@dimen/marginTop30"
+        android:textSize="@dimen/textDescricao"
+        android:text="Porção: 500g (Fatia) - Fatia: Kcal"
+        android:paddingLeft="@dimen/paddinLeft20dp"/>
+</LinearLayout>

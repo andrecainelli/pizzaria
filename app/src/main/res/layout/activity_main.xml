@@ -27,7 +27,7 @@
         android:paddingLeft="@dimen/respiroLabel"
         android:paddingRight="@dimen/respiroLabel2"
         />
-   
+
 
     <EditText
         android:hint="@string/password"
@@ -46,7 +46,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp"
+        android:padding="@dimen/paddingGeral"
         android:background="@color/primaryColor"
         android:textColor="@color/defaultColor"
         android:text="@string/entrar"

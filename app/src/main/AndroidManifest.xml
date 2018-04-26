@@ -18,6 +18,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoggedActivity" />
+        <activity android:name=".activity_logged" />
+        <activity android:name=".configuracoes" />
+        <activity android:name=".Calabresa" />
+        <activity android:name=".Margerita" />
+        <activity android:name=".Frango" />
+        <activity android:name=".Mussarela"></activity>
     </application>
 
 </manifest>
