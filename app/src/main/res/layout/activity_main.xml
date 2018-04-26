@@ -4,7 +4,64 @@
     android:orientation="vertical"
     android:padding="@dimen/paddingGeral"
     android:background="@color/bgColor"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/logoLogin"
+        android:src="@drawable/logotipo"/>
 
 
 
-    xmlns:android="http://schemas.android.com/apk/res/android"></LinearLayout>
+
+    <EditText
+        android:hint="@string/login"
+        android:textColorHint="@color/defaultColor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sizeLabel"
+        android:id="@+id/login"
+        android:background="@color/labelLogin"
+        android:textColor="@color/defaultColor"
+        android:layout_marginBottom="@dimen/marginLabel"
+        android:paddingLeft="@dimen/respiroLabel"
+        android:paddingRight="@dimen/respiroLabel2"
+        />
+   
+
+    <EditText
+        android:hint="@string/password"
+        android:textColorHint="@color/defaultColor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sizeLabel"
+        android:id="@+id/password"
+        android:background="@color/labelLogin"
+        android:textColor="@color/defaultColor"
+        android:layout_marginBottom="@dimen/marginLabel"
+        android:paddingLeft="@dimen/respiroLabel"
+        android:paddingRight="@dimen/respiroLabel2"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@color/primaryColor"
+        android:textColor="@color/defaultColor"
+        android:text="@string/entrar"
+        android:onClick="entrar"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

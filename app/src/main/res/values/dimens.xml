@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="paddingGeral">20dp</dimen>
+    <dimen name="logoLogin">200dp</dimen>
+    <dimen name="fontDefault">18dp</dimen>
+    <dimen name="sizeLabel">40dp</dimen>
+    <dimen name="marginLabel">30dp</dimen>
+    <dimen name="respiroLabel">20dp</dimen>
+    <dimen name="respiroLabel2">20dp</dimen>
 </resources>
